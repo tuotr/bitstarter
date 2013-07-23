@@ -1,8 +1,8 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-      <title>My First Bitstarter</title>
+      <title>Car Cost Calculator</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
       <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css"
@@ -10,20 +10,20 @@
       <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
       <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
       <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" rel="stylesheet" type="text/css">
-      <link href="http://fonts.googleapis.com/css?Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700,800" rel="stylesheet" type="text/css">      
+      <link href="http://fonts.googleapis.com/css?Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700,800" rel="stylesheet" type="text/css">
       <style type="text/css">
-	/* Large desktop */
-	@media (min-width: 980px) {
-	  body {
-	    padding-top: 60px;
-	  }
-	  .linediv-l {
-	    border-right: 1px white solid;
-	  }
-	  .linediv-r {
-	    border-left: 1px white solid;
-	  } 
-	}
+/* Large desktop */
+@media (min-width: 980px) {
+body {
+padding-top: 60px;
+}
+.linediv-l {
+border-right: 1px white solid;
+}
+.linediv-r {
+border-left: 1px white solid;
+}
+}
         /* Landscape phones and down */
         @media (max-width) {
           .copy {
@@ -95,28 +95,28 @@
           color: #ccccff;
         }
     </style>
-  </head> 
+  </head>
   <body>
     <!-- Mobile-friendly navbar adapted from example. -->
     <!-- http://twitter.github.io/bootstrap/examples/starter-template.html -->
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
-          <button type="button" class="btn btn-navbar" 
+          <button type="button" class="btn btn-navbar"
                   data-toggle="collapse" data-target=".nav-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="brand" href="#">Bitstarter</a>
+          <a class="brand" href="#">CarCalc</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="active"><a href="#">Home</a></li>
               <li><a href="#about">About</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
-          </div><!--/.nav-collapse -->        
-	</div>
+          </div><!--/.nav-collapse -->
+</div>
       </div>
     </div>
     
@@ -124,17 +124,17 @@
     <div class="container">
       <div class="row-fluid heading">
         <div class="span12">
-          <h1>Product</h1>
+          <h1>Car Cost Calculator</h1>
         </div>
-      </div>		
+      </div>	
       <div class="row-fluid subheading">
         <div class="span12">
-          <p class="lead">One sentence description.</p>
+          <p class="lead">Analyse your car costs and save your money.</p>
         </div>
       </div>
       <div class="row-fluid pitch">
         <div class="span5 offset1 video">
-          <img class="img-polaroid" src="http://placehold.it/480x300">
+          <img class="img-polaroid" src="http://imageshack.us/a/img14/4379/hvp6.jpg">
         </div>
 
         <!-- Define a new 'actions' -->
@@ -143,17 +143,17 @@
             <div class="statistics">
               <div class="span4">
                 <div class="linediv-l">
-                  <h3>1000</h3> <p>backers</p>
+                  <h3>2</h3> <p>backers</p>
                 </div>
-              </div>      
+              </div>
               <div class="span4">
                 <div class="linediv-c">
-                  <h3>$6000</h3> <p>of $10,000</p>
+                  <h3>$1000</h3> <p>of $10,000</p>
                 </div>
               </div>
               <div class="span4">
                 <div class="linediv-r">
-                  <h3>10</h3> <p>days left</p>
+                  <h3>60</h3> <p>days left</p>
                 </div>
               </div>
             </div>
@@ -161,15 +161,15 @@
           <div class="span10 offset1">
             <!-- Bootstrap progress bar -->
             <div class="thermometer progress active">
-              <div class="bar bar-success" style="width: 60%;"></div>
-              <div class="bar bar-warning" style="width: 40%;"></div>
+              <div class="bar bar-success" style="width: 10%;"></div>
+              <div class="bar bar-warning" style="width: 90%;"></div>
             </div>
           </div>
           <div class="span6 offset3 order">
             <button class="btn btn-success btn-large">Preorder</button>
           </div>
           <div class="span8 offset2 social">
-            <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>      
+            <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
             <button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
           </div>
         </div>
@@ -178,20 +178,11 @@
       <!-- Beyond this part the marketing copy begins -->
       <div class="row-fluid section1">
         <div class="span5 offset1 asset">
-          <img class="img-polaroid" src="http://placehold.it/480x300">
+          <img class="img-polaroid" src="http://imageshack.us/a/img6/844/55pq.jpg">
         </div>
         <div class="span5 copy">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Maecenas pellentesque dui sit amet malesuada sodales. 
-            Nullam in vehicula ligula, at hendrerit lectus. 
-            Vivamus at velit ultrices, suscipit eros nec, imperdiet augue. 
-            Praesent ac bibendum libero. Nullam blandit purus eget dolor 
-            faucibus, at convallis diam sagittis. Curabitur at libero 
-            vitae velit ultrices interdum. Vivamus id mi volutpat, 
-            posuere sem eget, blandit sem. Suspendisse ut magna feugiat, 
-            commodo tellus a, blandit orci. Etiam ut enim vel turpis 
-            consequat dapibus. 
+Do you know how much money do you spend on your daily car usage? In time of expensive oil, spare and consumable parts, it would be good to know how big costs are for YOUR car, not only based on averages presented by motor companies. That how this idea was born - I propose application CarCalc which will allow you register all your cars expenses. Sacrificing only few minutes by week will give you after few months interesting view on your refueling statistics. Sharing this information with users society will allow creating better data source than tests sponsored by motor companies. 
           </p>
         </div>
       </div>
@@ -199,21 +190,13 @@
       <div class="row-fluid section2">
         <div class="span5 offset1 copy copy-right">
           <p>
-            Maecenas risus dui, mollis consectetur eleifend eget, iaculis 
-            vitae justo. Class aptent taciti sociosqu ad litora torquent
-             per conubia nostra, per inceptos himenaeos. Integer faucibus 
-            dapibus lectus, quis fermentum sem egestas ac. Phasellus 
-            hendrerit tincidunt nulla quis ullamcorper. Sed elit sapien, 
-            elementum ut risus luctus, molestie molestie neque. 
-            Ut eleifend et metus sed sollicitudin. Cras est nulla, 
-            blandit quis pellentesque consequat, dignissim et diam. 
-            Sed viverra ligula non magna sollicitudin rutrum. Etiam id leo 
-            nec quam facilisis gravida vitae et lorem.       
+How it will work: Application dedicated to your mobile phone system (iOS, Android, Windows Phone) will allow you register all information about current expenses on fuel, small parts, fixes and assurance. This data would may send to your account to browse them not only by your phone but also with any Internet browser. This will give you a chance to compare your scores with others users having same car model as you. More, if you decide to share your data to public, we can build up a solid and useful source of information. In future it may give you special discounts profiled to you from fuel stations, garages or even car dealers.
           </p>
         </div>
         <div class="span5 asset">
-          <img class="img-polaroid" src="http://placehold.it/480x300">
+          <img class="img-polaroid" src="http://imageshack.us/a/img692/2301/43pu.jpg">
         </div>
+
       </div>
 
       <!-- FAQ -->
@@ -223,7 +206,7 @@
           <div class="accordion" id="accordion2">
             <div class="accordion-group">
               <div class="accordion-heading">
-                <a class="accordion-toggle" data-toggle="collapse" 
+                <a class="accordion-toggle" data-toggle="collapse"
                    data-parent="#accordion2" href="#collapseOne">
                   What does FAQ stand for?
                 </a>
@@ -254,7 +237,7 @@
 
       <!-- CC By-SA 3.0 license -->
       <div class="row-fluid footer">
-        <div class="span12"> 
+        <div class="span12">
           <p>This work is licensed under the
             <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC By-SA 3.0</a>,
              without all the cruft that would otherwise be put at the bottom
@@ -263,5 +246,4 @@
       </div>
     </div>
   </body>
-</html>             
-
+</html>
